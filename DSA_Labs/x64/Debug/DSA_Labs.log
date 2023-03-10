@@ -1,0 +1,6 @@
+﻿  DSA_Main.cpp
+C:\Users\matty\Desktop\school\old classes\algorthims class\DSA_Labs\DSA_Labs\DSA_Lab2.h(110,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\matty\Desktop\school\old classes\algorthims class\DSA_Labs\DSA_Labs\Huffman.h(313,21): warning C4018: '<': signed/unsigned mismatch
+  DSA_TestSuite_Lab4.cpp
+  Generating Code...
+  DSA_Labs.vcxproj -> C:\Users\matty\Desktop\school\old classes\algorthims class\DSA_Labs\x64\Debug\DSA_Labs.exe
