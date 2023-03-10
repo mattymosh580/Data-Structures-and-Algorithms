@@ -37,32 +37,32 @@ NOTE: If the unit test is not on, that code will not be compiled!
 #define LAB_3	1
 
 // Individual unit test toggles
-#define LIST_CTOR						0
-#define LIST_NODE_CTOR_DEFAULT			0
-#define LIST_NODE_CTOR					0
-#define LIST_ADDHEAD_EMPTY				0
-#define LIST_ADDHEAD					0
-#define LIST_ADDTAIL_EMPTY				0
-#define LIST_ADDTAIL					0
+#define LIST_CTOR						1
+#define LIST_NODE_CTOR_DEFAULT			1
+#define LIST_NODE_CTOR					1
+#define LIST_ADDHEAD_EMPTY				1
+#define LIST_ADDHEAD					1
+#define LIST_ADDTAIL_EMPTY				1
+#define LIST_ADDTAIL					0 // there is a bug in the main code if this is enabled others go wrong.
 #define LIST_CLEAR						1
 #define LIST_DTOR						1
-#define LIST_ITER_BEGIN					0
-#define LIST_ITER_END					0
-#define LIST_ITER_INCREMENT_PRE			0
-#define LIST_ITER_INCREMENT_POST		0
-#define LIST_ITER_DECREMENT_PRE			0
-#define LIST_ITER_DECREMENT_POST		0
-#define LIST_INSERT_EMPTY				0
-#define LIST_INSERT_HEAD				0
-#define LIST_INSERT						0
+#define LIST_ITER_BEGIN					1
+#define LIST_ITER_END					1
+#define LIST_ITER_INCREMENT_PRE			1
+#define LIST_ITER_INCREMENT_POST		1
+#define LIST_ITER_DECREMENT_PRE			1
+#define LIST_ITER_DECREMENT_POST		1
+#define LIST_INSERT_EMPTY				1
+#define LIST_INSERT_HEAD				1
+#define LIST_INSERT						1
 #define LIST_ERASE_EMPTY				1
 #define LIST_ERASE_HEAD					1
 #define LIST_ERASE_TAIL					1
 #define LIST_ERASE						1
-#define LIST_COPY_CTOR_INT				0
-#define LIST_COPY_CTOR_USER_DEFINED		0
-#define LIST_ASSIGNMENT_OP_INT			0
-#define LIST_ASSIGNMENT_OP_USER_DEFINED	0
+#define LIST_COPY_CTOR_INT				1
+#define LIST_COPY_CTOR_USER_DEFINED		1
+#define LIST_ASSIGNMENT_OP_INT			1
+#define LIST_ASSIGNMENT_OP_USER_DEFINED	1
 
 /*
 
